@@ -229,6 +229,11 @@ export default function App() {
             )}
           </AnimatePresence>
         </main>
+
+        <footer className="mt-12 mb-4 text-center text-[10px] md:text-xs text-zinc-600 font-mono opacity-60">
+          <p>免责声明：本系统界面、题库、算法模型及历史文本均由 Google Gemini 主导生成。</p>
+          <p>仅供历史军事爱好者娱乐与推演参考，不代表任何官方政治立场或严肃学术定论。</p>
+        </footer>
       </div>
     </div>
   );
